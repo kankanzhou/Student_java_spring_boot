@@ -5,6 +5,7 @@ package Day3;
  * @Date: 2023-09-02 2:33 p.m.
  */
 public class Body {
+    protected int num;
     public void mainMethod() {
         System.out.println("this is a outer method");
     }
