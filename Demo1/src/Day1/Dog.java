@@ -8,6 +8,6 @@ public class Dog extends Animal{
     static String name = "dog";
     @Override
     public void speak() {
-        System.out.println("thi is dog");
+        System.out.println("this is dog");
     }
 }
