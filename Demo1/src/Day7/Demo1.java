@@ -1,0 +1,15 @@
+package Day7;
+
+/**
+ * @Author: KanZhou
+ * @Date: 2023-09-04 10:37 p.m.
+ */
+public class Demo1 {
+    public static void main(String[] args) {
+        StringBuilder s = new StringBuilder();
+        s.append(123).append("kanzhou");
+        System.out.println(s);
+        Long i = 100L;
+        System.out.println(i.longValue());
+    }
+}
