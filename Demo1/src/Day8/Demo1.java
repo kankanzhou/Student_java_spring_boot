@@ -14,9 +14,9 @@ public class Demo1 {
         c.add(1);
         c.add(2);
         c.add(3);
-        Iterator<Integer> i = c.iterator();
-        while (i.hasNext()) {
-            System.out.println(i.next());
+        //Iterator<Integer> i = c.iterator();
+        while (c.iterator().hasNext()) {
+            System.out.println(c.iterator().next());
         }
     }
 }
