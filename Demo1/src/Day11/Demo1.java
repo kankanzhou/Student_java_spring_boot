@@ -15,7 +15,8 @@ public class Demo1 {
             System.out.println("s1 == s2");
         }
         if (s1 == s3) {
-            System.out.println("s1 == s3");
+            System.out.println("s1 ==" +
+                    " s3");
         }
         if (s1.equals(s3)) {
             System.out.println("s1 and s3 are equal");
